@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { Dumbbell, TrendingUp, Target, Calendar } from "lucide-react";
+import AIAdviesVoorMorgen from "./AIAdviesVoorMorgen";
 
 const Dashboard = () => {
   const todayWorkout = {
@@ -131,6 +132,8 @@ const Dashboard = () => {
           </Button>
         </div>
       </div>
+      {/* Voeg AI-adviesknop toe */}
+      <AIAdviesVoorMorgen />
     </div>
   );
 };
